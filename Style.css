@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a4a4a;
+    text-align: center;
+    padding-top: 3.5rem;
+    font-size: 155%;
+}
+
+.cuerpo ul li a {
+    position: absolute;
+    top: 24%;
+    left: -13%;
+    padding-left: 5rem;
+    text-decoration: none;
+    font-size: 115%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+p {
+    position: absolute;
+    top: 28%;
+    left: -13%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5rem;
+    line-height: 1.4em;
+}
+
+.telegram a {
+    position: absolute;
+    top: 48%;
+    left: 12%;
+    display: inline-block;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #4a4a4a;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+
+    transition: all 0.4s linear;
+}
+
+.telegram2 a {
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    display: inline-block;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #f1c40f;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s linear;
+}
+
+.telegram2 a:hover {
+    background: ;
+
+    webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+.telegram a:hover {
+    webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+@media screen and (min-width: 1035px) {
+    .titulo h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4a4a4a;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .cuerpo ul li a {
+        position: absolute;
+        top: 24%;
+        left: 4%;
+
+        text-decoration: none;
+        font-size: 115%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4a4a4a;
+        font-weight: bold;
+    }
+
+    p {
+        position: absolute;
+        top: 28%;
+        left: 4%;
+
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 5rem;
+    }
+
+    .telegram a {
+        position: absolute;
+        top: 42%;
+        left: 28%;
+        display: inline-block;
+        flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: #4a4a4a;
+        text-decoration: none;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        cursor: pointer;
+        font-weight: bold;
+        align-items: center;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+
+        transition: all 0.4s linear;
+    }
+
+    .telegram2 a {
+        position: absolute;
+        top: 42%;
+        left: 45%;
+        display: inline-block;
+        flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: #f1c40f;
+        text-decoration: none;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        cursor: pointer;
+        font-weight: bold;
+        align-items: center;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.4s linear;
+    }
+
+    .telegram2 a:hover {
+        background: ;
+
+        webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    }
+
+    .telegram a:hover {
+        webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    }
+}
